@@ -17,16 +17,20 @@ app.get('/', (req, res) => {
   res.send('hello again in class 2');
 });
 
+// app.get('/person', (req, res) => {
+//   res.send('this is my server, enter any name as query to see result =D');
+// })
+
 
 app.get('/person', validator, (req, res) => {
 
   const name = req.query.name;
-  if (name) {
-    res.json(`The name entered is ${name}`)
-  } else if ({ name: '' }) {
-    res.sendStatus(500)
-    return
-  }
+  // if (name) {
+  res.json(`The name entered is ${name}`)
+  // } else if ({ name: '' }) {
+  //   res.sendStatus(500)
+  //   return
+  // }
 
 });
 
