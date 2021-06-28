@@ -1,12 +1,8 @@
 // 'use strict';
 
 module.exports = (req, res, next) => {
-  if (req.query.name) {
-    next()
-  } else if (req.query.name === '') {
-
-    next('errrorrr');
-  }
+  req.query.name ? next() : req.query.name === '' ? next('errrorrr') : null;
 }
+
 
 
