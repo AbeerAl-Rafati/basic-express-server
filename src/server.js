@@ -25,12 +25,8 @@ app.get('/', (req, res) => {
 app.get('/person', validator, (req, res) => {
 
   const name = req.query.name;
-  // if (name) {
+
   res.json(`The name entered is ${name}`)
-  // } else if ({ name: '' }) {
-  //   res.sendStatus(500)
-  //   return
-  // }
 
 });
 

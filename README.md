@@ -5,7 +5,7 @@
 **This app to explain how to creat a server and test it for deployment(Heroku)**   
 
 [Produchion deployment](https://class2-server.herokuapp.com/)    
-[Pull req](https://github.com/AbeerAl-Rafati/First_api_server/pull/1)   
+[Pull req](https://github.com/AbeerAl-Rafati/basic-express-server/pull/2)   
 
 
 
